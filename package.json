@@ -1,0 +1,31 @@
+{
+  "name": "express-and-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &&exit 1 ",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "bcrypt": "2.3.0",
+    "body-parser":"*",
+    "cors":"*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "lodash.isplainobject": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
+}
